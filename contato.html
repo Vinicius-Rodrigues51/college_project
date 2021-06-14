@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/262b954398.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>College project</title>
+</head>
+<body>
+    
+    <section class="sub-header">
+            <nav>
+
+               <a href="index.html"><img src="Assets/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>
+                        <a href="about.html"><li>SOBRE</li></a>
+                        <a href="cursos.html"><li>CURSOS</li></a>
+                        <a href="blog.html"><li>BLOG</li></a>
+                        <a href="contato.html"><li>CONTATO</li></a>
+                    </ul>
+                </div><!--nav links-->
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+
+            <h1>Entre em contato</h1>
+    </section>
+
+    <!-- contact content -->
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.2600778697483!2d-0.13025689165774243!3d51.52201876381742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b2e05fa84a1%3A0x35223832b9a7517a!2sUniversidade%20de%20Londres!5e0!3m2!1spt-BR!2sbr!4v1623708007520!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fas fa-home"></i>
+                <span>
+                    <h5>Senate House, Malet St</h5>
+                    <p>London WC1E 7HU, UK</p>
+                </span>
+                </div>
+
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                <span>
+                    <h5>570-733-5830</h5>
+                    <p>De Segunda a Sexta das 8h as 18h</p>
+                </span>
+                </div>
+
+                <div>
+                    <i class="far fa-envelope"></i>
+                <span>
+                    <h5>london-universety@temporary-mail.net</h5>
+                    <p>Nos mande sua duvida</p>
+                </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="text" name="subject" placeholder="Assunto" required>
+                    <textarea rows="8" name="message" placeholder="Mensagem" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">ENVIAR MENSAGEM</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>Sobre Nós</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sapien vitae urna dignissim, sit amet convallis erat vestibulum. <br> Phasellus posuere sapien non nisi porttitor ornare. Phasellus posuere sapien non nisi porttitor ornare.</p>
+
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>Feito por <i class="fas fa-globe-americas"></i> Vinicius Rodrigues</p>
+    </section>
+
+
+
+    <!-- JS menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

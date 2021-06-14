@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/262b954398.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>College project</title>
+</head>
+<body>
+    
+    <section class="sub-header">
+            <nav>
+
+               <a href="index.html"><img src="Assets/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>
+                        <a href="about.html"><li>SOBRE</li></a>
+                        <a href="cursos.html"><li>CURSOS</li></a>
+                        <a href="blog.html"><li>BLOG</li></a>
+                        <a href="contato.html"><li>CONTATO</li></a>
+                    </ul>
+                </div><!--nav links-->
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+
+            <h1>Sobre nós</h1>
+    </section>
+
+    <!-- About content -->
+
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Nós somos a maior universidade do mundo</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sapien vitae urna dignissim, sit amet convallis erat vestibulum. Phasellus posuere sapien non nisi porttitor ornare. Phasellus posuere sapien non nisi porttitor ornare. Sed tristique sapien vitae urna dignissim, sit amet convallis erat vestibulum.</p>
+                <a class="hero-btn red-btn" href="#">EXPLORAR AGORA</a>
+            </div>
+
+            <div class="about-col">
+                <img src="Assets/about.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+
+    
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>Sobre Nós</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sapien vitae urna dignissim, sit amet convallis erat vestibulum. <br> Phasellus posuere sapien non nisi porttitor ornare. Phasellus posuere sapien non nisi porttitor ornare.</p>
+
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>Feito por <i class="fas fa-globe-americas"></i> Vinicius Rodrigues</p>
+    </section>
+
+
+
+    <!-- JS menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

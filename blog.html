@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/262b954398.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>College project</title>
+</head>
+<body>
+    
+    <section class="sub-header">
+            <nav>
+
+               <a href="index.html"><img src="Assets/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>
+                        <a href="about.html"><li>SOBRE</li></a>
+                        <a href="cursos.html"><li>CURSOS</li></a>
+                        <a href="blog.html"><li>BLOG</li></a>
+                        <a href="contato.html"><li>CONTATO</li></a>
+                    </ul>
+                </div><!--nav links-->
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+
+            <h1>Nossos certificados & programas online para 2021</h1>
+    </section>
+
+    <!-- blog page content -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Assets/certificate.jpg">
+                <h2>Nossos certificados & programas online para 2021</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sapien vitae urna dignissim, sit amet convallis erat vestibulum. Phasellus posuere sapien non nisi porttitor ornare. Phasellus posuere sapien non nisi porttitor ornare.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a euismod lorem. In luctus a sapien eu facilisis. Morbi at rhoncus augue. Integer cursus dignissim ligula non venenatis. Praesent rhoncus vel nisi ut ornare. Etiam non magna consectetur, imperdiet diam at, bibendum nisi. Fusce sit amet dolor posuere neque imperdiet facilisis. Aenean maximus imperdiet velit. Donec pulvinar tristique volutpat. Nulla tincidunt dictum dolor sit amet malesuada. Etiam vulputate posuere magna ut pellentesque. Aliquam vitae facilisis arcu. In vitae bibendum erat. Sed sed elit eget eros tristique volutpat.</p>
+                <br>
+                <p>Maecenas ultrices ex sed quam fringilla, quis consectetur libero pellentesque. Etiam eleifend maximus urna id consectetur. Nullam facilisis justo nec dui maximus finibus. Integer vehicula nibh eget sapien semper suscipit. Mauris ac elit non odio dapibus accumsan quis vulputate turpis. Nam sed molestie enim, tincidunt ullamcorper leo. Nam mauris tellus, sollicitudin eget dictum sit amet, lacinia eget eros. Sed quis gravida metus. Pellentesque mollis elit ac vestibulum dapibus. Nulla vel lectus lorem.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sapien vitae urna dignissim, sit amet convallis erat vestibulum. Phasellus posuere sapien non nisi porttitor ornare. Phasellus posuere sapien non nisi porttitor ornare. Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed tristique sapien vitae urna dignissim,</p>
+
+                <div class="comment-box">
+
+                    <h3>Deixe um comentário</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Nome">
+                        <input type="email" placeholder="E-mail">
+                        <textarea rows="5" placeholder="Seu comentário"></textarea>
+                        <button class="hero-btn red-btn" type="submit">POSTAR COMENTÁRIO</button>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="blog-right">
+                <h3>Categorias de post</h3>
+                <div>
+                    <span>Analista de negócios</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Data science</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>Machine Learning</span>
+                    <span>10</span>
+                </div>
+
+                <div>
+                    <span>Ciência da computação</span>
+                    <span>28</span>
+                </div>
+
+                <div>
+                    <span>AutoCAD</span>
+                    <span>12</span>
+                </div>
+
+                <div>
+                    <span>Jornalismo</span>
+                    <span>24</span>
+                </div>
+
+                <div>
+                    <span>Marketing</span>
+                    <span>26</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>Sobre Nós</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sapien vitae urna dignissim, sit amet convallis erat vestibulum. <br> Phasellus posuere sapien non nisi porttitor ornare. Phasellus posuere sapien non nisi porttitor ornare.</p>
+
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>Feito por <i class="fas fa-globe-americas"></i> Vinicius Rodrigues</p>
+    </section>
+
+
+
+    <!-- JS menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/262b954398.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>College project</title>
+</head>
+<body>
+    
+    <section class="sub-header">
+            <nav>
+
+               <a href="index.html"><img src="Assets/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <a href="index.html"><li>HOME</li></a>
+                        <a href="about.html"><li>SOBRE</li></a>
+                        <a href="cursos.html"><li>CURSOS</li></a>
+                        <a href="blog.html"><li>BLOG</li></a>
+                        <a href="contato.html"><li>CONTATO</li></a>
+                    </ul>
+                </div><!--nav links-->
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+
+            <h1>Nossos cursos</h1>
+    </section>
+
+    <!-- course content -->
+
+    <section class="cursos">
+        <h1>Cursos que oferecemos</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Bacharelado</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sapien vitae urna dignissim, sit amet convallis erat vestibulum. Phasellus posuere sapien non nisi porttitor ornare. Phasellus posuere sapien non nisi porttitor ornare. </p>
+            </div><!--course-col-->
+
+            <div class="course-col">
+                <h3>Pós graduação</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sapien vitae urna dignissim, sit amet convallis erat vestibulum. Phasellus posuere sapien non nisi porttitor ornare. Phasellus posuere sapien non nisi porttitor ornare. </p>
+            </div><!--course-col-->
+
+            <div class="course-col">
+                <h3>Doutorado</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sapien vitae urna dignissim, sit amet convallis erat vestibulum. Phasellus posuere sapien non nisi porttitor ornare. Phasellus posuere sapien non nisi porttitor ornare. </p>
+            </div><!--course-col-->
+        </div><!--row-->
+    </section>
+    
+
+    <!-- instalaçoes -->
+
+
+    <section class="instalacoes">
+        <h1>Nossas instalações</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="instalacoes-col">
+                <img src="Assets/library.png">
+                <h3>Biblioteca de classe mundial</h3>
+                <p>Aenean malesuada quam et consequat condimentum. Vivamus eu orci ac odio pulvinar lobortis.</p>
+            </div><!--instalacoes col-->
+
+            <div class="instalacoes-col">
+                <img src="Assets/basketball.png">
+                <h3>O maior play ground</h3>
+                <p>Aenean malesuada quam et consequat condimentum. Vivamus eu orci ac odio pulvinar lobortis.</p>
+            </div><!--instalacoes col-->
+
+            <div class="instalacoes-col">
+                <img src="Assets/cafeteria.png">
+                <h3>Comida saudável e deliciosa</h3>
+                <p>Aenean malesuada quam et consequat condimentum. Vivamus eu orci ac odio pulvinar lobortis.</p>
+            </div><!--instalacoes col-->
+        </div><!--row-->
+    </section>
+
+
+    
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>Sobre Nós</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique sapien vitae urna dignissim, sit amet convallis erat vestibulum. <br> Phasellus posuere sapien non nisi porttitor ornare. Phasellus posuere sapien non nisi porttitor ornare.</p>
+
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>Feito por <i class="fas fa-globe-americas"></i> Vinicius Rodrigues</p>
+    </section>
+
+
+
+    <!-- JS menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
